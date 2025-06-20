@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Heading with ARIA role -->
+    <h1 role="heading">Tanmay's Portfolio</h1>
 
+    <!-- Navigation bar with ARIA role -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image with ARIA role and alt text -->
+    <img role="img" src="profile.jpg" alt="Profile photo of Tanmay" />
+
+    <!-- Brief description -->
+    <section id="about">
+        <p>
+            Hello! I'm Tanmay, a passionate software developer with expertise in building web and mobile applications.
+            I love creating accessible, user-friendly, and performance-optimized apps.
+        </p>
+    </section>
+
+    <!-- List with ARIA role -->
+    <section id="skills">
+        <h2 role="heading">Skills</h2>
+        <ul role="list">
+            <li role="listitem">JavaScript & TypeScript</li>
+            <li role="listitem">Flutter & Dart</li>
+            <li role="listitem">Go & PostgreSQL</li>
+            <li role="listitem">HTML & CSS (with ARIA accessibility)</li>
+        </ul>
+    </section>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
